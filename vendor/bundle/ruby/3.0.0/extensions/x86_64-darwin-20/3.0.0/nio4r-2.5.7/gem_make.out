@@ -1,5 +1,5 @@
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext/nio4r
-/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210522-38201-k1fknv.rb extconf.rb
+/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210523-46446-wgtqmb.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -107,4 +107,4 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext/nio4r
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20210522-38201-is1n5l
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20210523-46446-ra6d8c

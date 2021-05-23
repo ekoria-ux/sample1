@@ -1,5 +1,5 @@
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
-/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210522-38201-12fxwn.rb extconf.rb
+/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210523-46446-p1ickn.rb extconf.rb
 checking for rb_ary_subseq()... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object racc/cparse.bundle
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210522-38201-ay8v63/racc
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210523-46446-jq1isy/racc

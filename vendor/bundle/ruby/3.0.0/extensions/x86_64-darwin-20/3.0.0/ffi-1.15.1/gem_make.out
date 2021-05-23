@@ -1,5 +1,5 @@
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.1/ext/ffi_c
-/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210522-38201-yodnoq.rb extconf.rb
+/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210523-46446-to64fz.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -40,4 +40,4 @@ linking shared-object ffi_c.bundle
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.1/ext/ffi_c
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210522-38201-i4zu9n
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210523-46446-pb5do3

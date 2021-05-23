@@ -1,5 +1,5 @@
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210522-38201-3q5lzf.rb extconf.rb
+/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210523-48448-zqxorg.rb extconf.rb
 creating Makefile
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210522-38201-u3dg0j/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210523-48448-p27rkp/sassc
