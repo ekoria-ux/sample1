@@ -1,0 +1,1 @@
+BASE_TITLE = "アプリ名".freeze
