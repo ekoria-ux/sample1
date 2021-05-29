@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
 gem 'bootstrap', '~> 5.0.1'
 gem 'jquery-rails'
 
@@ -45,6 +47,10 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'rubocop', require: false
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'letter_opener_web', '~> 1.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

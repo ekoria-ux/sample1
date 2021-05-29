@@ -1,0 +1,32 @@
+<% provide(:title, "利用規約") %>
+
+<h2 class="mb-5"><%= yield(:title) %></h2>
+<div class="overflow-auto term-scroll mb-3">
+  <p>この利用規約（以下，「本規約」といいます。）は、このウェブサイト上で提供するサービス
+  （以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま
+  （以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。</p>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+  <li>その１</li>
+</div>
+
+<div class="form-check mb-4 d-flex justify-content-center">
+  <input type="checkbox" class="form-check-input me-1" value="" id="formCheckTerm">
+  <label class="form-check-label" for="formCheckTerm">
+    利用規約に同意する。
+  </label>
+</div>
+<div>
+  <%= link_to "進む", new_user_registration_path, class: "btn btn-dark col-3 disabled", id: "termBtn" %>
+</div>
+
+<%= javascript_pack_tag 'term', 'data-turbolinks-track': 'reload' %>
