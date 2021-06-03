@@ -1,0 +1,18 @@
+<% provide(:title, "ログイン") %>
+
+<%= render "users/shared/logotext" %>
+
+<%= form_with(model: resource, scope: resource_name, url: session_path(resource_name)) do |f| %>
+  <%= render "users/shared/error_messages", resource: resource %>
+  <%= render "users/shared/form", f: f, resource: resource %>
+  <div>
+    <div class="small mb-4">
+      パスワードを忘れた方は<%= link_to "こちら", new_user_password_path %>
+    </div>
+    <div class="d-flex flex-column">
+      <%= f.submit "ログイン", class: "btn btn-dark col-3 mb-3 mx-auto" %>
+      <%= link_to "新規登録", term_path, class: "btn btn-dark col-3 mx-auto" %>
+    </div>
+  </div>
+<% end %>
+

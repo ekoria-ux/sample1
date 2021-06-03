@@ -1,0 +1,13 @@
+<% provide(:title, "パスワード設定") %>
+
+<%= render "users/shared/logotext" %>
+
+<%= form_with(model: resource, scope: resource_name, url: confirmation_path(resource_name), html: { method: :patch }) do |f| %>
+  <%= render "users/shared/error_messages", resource: resource %>
+  <%= hidden_field_tag :confirmation_token, params[:confirmation_token] %>
+  <%= render "users/shared/form", f: f, resource: resource %>
+
+   <div class="actions">
+    <%= f.submit "パスワード設定", class: "btn btn-dark col-3 mb-3 mx-auto" %>
+  </div>
+<% end %>

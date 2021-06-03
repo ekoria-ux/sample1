@@ -1,0 +1,15 @@
+<% if controller.kind_of?(Devise::SessionsController) %>
+  <p class="small"><b>ログインの</b>説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文</p>
+<% end %>
+
+<% if controller.kind_of?(Devise::RegistrationsController) %>
+  <p class="small"><b>新規登録の</b>説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文</p>
+<% end %>
+
+<% if controller.kind_of?(Devise::ConfirmationsController) %>
+  <p class="small">パスワードを設定してください。</p>
+<% end %>
+
+<% if controller.kind_of?(Devise::PasswordsController) %>
+  <p class="small">パスワードをリセットします。</p>
+<% end %>

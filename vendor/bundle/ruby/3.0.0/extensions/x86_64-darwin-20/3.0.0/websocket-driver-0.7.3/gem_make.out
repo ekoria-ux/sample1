@@ -1,5 +1,5 @@
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
-/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210522-38201-llxbsi.rb extconf.rb
+/Users/ekoria/.rbenv/versions/3.0.1/bin/ruby -I /Users/ekoria/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210523-46446-2jnxix.rb extconf.rb
 creating Makefile
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
@@ -12,4 +12,4 @@ linking shared-object websocket_mask.bundle
 
 current directory: /Users/ekoria/environment/brave/sample1/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210522-38201-k2bvn5
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210523-46446-k5z2ef

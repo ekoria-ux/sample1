@@ -29,8 +29,10 @@ module Sample1
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
-    # config.time_zone = "Central Time (US & Canada)"
+    config.time_zone = "Tokyo"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.i18n.default_locale = :ja
 
     # Don't generate system test files.
     config.generators.system_tests = nil

@@ -1,0 +1,33 @@
+<% if !controller.kind_of?(Devise::ConfirmationsController) && resource.reset_password_token.blank? %>
+  <div class="row mb-3 justify-content-center">
+    <%= f.label :email, class: "col-lg-2 col-form-label-sm" %>
+    <div class = "col-lg-4">
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %>
+    </div>
+  </div>
+<% end %>
+
+<% if controller.kind_of?(Devise::SessionsController) %>
+  <div class="row mb-3 justify-content-center">
+    <%= f.label :password, class: "col-lg-2 col-form-label-sm" %>
+    <div class = "col-lg-4">
+      <%= f.password_field :password, autocomplete: "current-password", class: "form-control" %>
+    </div>
+  </div>
+<% end %>
+
+<% if controller.kind_of?(Devise::ConfirmationsController) || controller.kind_of?(Devise::PasswordsController) && resource.reset_password_token %>
+  <div class="row mb-3 justify-content-center">
+    <%= f.label :password, class: "col-lg-2 col-form-label-sm" %>
+    <div class = "col-lg-4">
+      <%= f.password_field :password, autocomplete: "new-password", class: "form-control" %>
+    </div>
+  </div>
+
+  <div class="row mb-3 justify-content-center">
+    <%= f.label :password_confirmation, class: "col-lg-2 col-form-label-sm" %>
+    <div class = "col-lg-4">
+      <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control" %>
+    </div>
+  </div>
+<% end %>
